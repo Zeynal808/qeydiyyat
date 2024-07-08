@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <h2>Telebe qeydiyyatdan kecirt</h2>
+    <label for="">Ad :</label>
+    <input type="text" placeholder="adi daxil et" id="ad">
+    <br>
+    <label for="">Soyad</label>
+    <input type="text" placeholder="soyadi daxil et" id="soyad">
+    <button class="add">Elave et</button>
+  
+
+
+
+
+    <h2>Telebeleri gor</h2>
+    <input type="text" placeholder="axtarginiz telebenin adini yazin" id="srch">
+    <button class="search">Axtar</button>
+    <div class="about">
+        <h2>Telebenin adi : <span class="studentName"></span> <br>
+            Telebenin soyadi : <span class="studentSurname"></span>
+        </h2>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
